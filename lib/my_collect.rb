@@ -4,6 +4,7 @@ def my_collect (array)
     yield(array[i].upcase)
     i += 1
   end
+  array
 end
 
 =begin

@@ -6,6 +6,6 @@ def my_collect (array)
   end
 end
 
-my_collect(array) do |element|
+my_collect() do |element|
   element.upcase
 end
